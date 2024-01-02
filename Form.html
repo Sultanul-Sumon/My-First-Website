@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="image/tracking.png">
+  <title>Basic CSS</title>
+  <link rel="stylesheet" href="First.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <form action="index.php" method="post" enctype="multipart/form-data">
+    <label for="username">Username:</label>
+    
+    <input type="text" id="username" placeholder="enter your name" minlength="6" maxlength="15">
+    <br>
+
+  <label for="password">password:</label>
+    <input type="password" id="password" placeholder="enter your password" minlength="8" maxlength="15" required> 
+    <br>
+    
+    <label for="email" id="email">Email:</label>
+    <input type="email" placeholder="enteryour@gmail.com" minlength=""><br>
+    
+    <label for="phone">Phone#</label>
+    <input type="tel" placeholder="01230-450-592" pattern="[0-11]{4}-[0-11]{3}-[0-11]{3}"><br>
+
+    <label for="bday">Birthday:</label><br>
+    <input type="date" id="bday"><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="0" max="100"><br>
+
+    <label for="title">Title:</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." value="Mr." name="title">
+
+    <label for="Md.">Md.</label>
+    <input type="radio" id="Md." value="Md." name="title">
+
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" id="Mrs." value="Mrs." name="title">
+
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+
+    <label for="Master.">Master.</label>
+    <input type="radio" id="Master." value="Master." name="title">
+
+    <label for="Baby.">Baby.</label>
+    <input type="radio" id="Baby." value="Baby." name="title">
+<br>
+    <label for="sex">Sex:</label>
+    <label for="Male">Male</label>
+    <input type="radio" id="Male." value="Male." name="sex">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female." value="Female." name="sex">
+    <br>
+
+      <label for="Payment">Payment:</label>
+      <select name="payment" id="payment">
+        <option value="Visa">Visa</option>
+        <option value="Master">Master</option>
+        <option value="American express">American express</option>
+      </select><br>
+
+      <label for="subscribe">Subscribe:</label>
+      <input type="checkbox" id="subscribe"><br>
+
+      <label for="comment">comment:</label>
+      <textarea id="comment" cols="20" rows="5"></textarea><br>
+
+      <label for="file">Filename:</label>
+      <input type="file" id="file" accept="image/png, image.jpeg"><br>
+
+
+
+    <input type="submit">
+    <br>
+    <input type="reset">
+
+  </form><br>
+
+
+<img src="https://media.istockphoto.com/id/664966806/photo/superheroes-cheerful-kids-expressing-positivity-concept.webp?b=1&s=170667a&w=0&k=20&c=Ho_GeAK_ZRkkBkIFx3mMA_-vOiUtySE9FOIDVgqgL3s=" alt="baby girls" height="200">
+
+
+
+
+</body>
+</html>
