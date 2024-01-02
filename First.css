@@ -110,8 +110,8 @@ h4 {
   border: 1px solid rgb(248, 74, 152);
   border-radius: 5px;
   background: #e7f1a4;
-  box-shadow: 10px 10px 10px rgb(191, 250, 200);
   align-items: center;
   text-align: center;
+  box-shadow: 10px 10px 10px rgb(30, 43, 10);
 
 }
